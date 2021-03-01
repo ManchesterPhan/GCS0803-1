@@ -11,7 +11,7 @@
 	$pass = "4255f55c61b88e10d836bdabbefdf41db3cbaa7dcdccd6447d85c2dfd2e9d8d4";
 	$ssl = "require";	
 
-	$link = pg_connect("host=".$host."dbname=".$dbname."$port=".$port."user=".$user."password=".$pass."sslmode=".$ssl);
+	$link = pg_connect("host=".$host." dbname=".$dbname." port=".$port." user=".$user." password=".$pass." sslmode=".$ssl);
 
 // Check connection
 	if($link === false){
